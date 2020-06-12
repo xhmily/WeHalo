@@ -1,0 +1,19 @@
+<!-- 蒙版效果 -->
+<view class="mask" hidden="{{isHidden}}" catchtap="closeMask">
+    <view class="masks" catchtap="prevent" animation="{{ani}}">
+        <view class="box">
+            <image class="leftImage" mode="widthFix" src="https://img-1251540275.cos.ap-shanghai.myqcloud.com/blog/IMG_1140(20200328-104456)_1591776646572.JPG"></image>
+            <view class="right">
+                <view class="title">
+                    <text class="name">Lucent</text>
+                </view>
+                <view class="info">
+                    <view class="field">Email</view>
+                    <view class="value">975023381@qq.com</view>
+                    <view class="field">Github</view>
+                    <view class="value">https://github.com/xhmily</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
